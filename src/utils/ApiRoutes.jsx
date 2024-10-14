@@ -1,0 +1,42 @@
+export default {
+    LOGIN:{
+        path:'/user/login',
+        auth:false
+    },
+    Dashboarddata:{
+        path:'/Dashboard/getdata',
+        auth:false
+    },
+    Signup:{
+        path:'/user/signup',
+        auth:false
+    },
+    UpdateProfile:{
+        path:'/user/updateprofile',
+        auth:false
+    },
+    CREATE_EXS:{
+        
+        path:'/Exercises/createExslog',
+    },
+    GET_ALL_EXS:{
+        path:'/Exercises/getAllExes',
+        auth:true
+    },
+    GET_EXS:{
+        path:'/Exercises/getExes',
+        auth:true
+    },
+    CREATE_NTS:{
+        path:'/Nutritions/createNutritions',
+        auth:true
+    },
+    GET_ALL_NTS:{
+        path:'/Nutritions/getAllNutritions',
+        auth:true
+    },
+    GET_NTS:{
+        path:'/Nutritions/getNutritions',
+        auth:true
+    }
+}
